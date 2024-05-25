@@ -7,12 +7,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{A84B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CatalogService", "CatalogService", "{796E95C1-0313-43ED-BC55-B9363AA7AA1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BasketService", "BasketService", "{10B4F877-F8C5-438B-9546-5FEB3A50FE0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogApi", "Service\CatalogService\CatalogApi\CatalogApi.csproj", "{3DDB853B-3014-4DB6-8C7C-BC055EF3E202}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DDB853B-3014-4DB6-8C7C-BC055EF3E202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DDB853B-3014-4DB6-8C7C-BC055EF3E202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DDB853B-3014-4DB6-8C7C-BC055EF3E202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DDB853B-3014-4DB6-8C7C-BC055EF3E202}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{796E95C1-0313-43ED-BC55-B9363AA7AA1B} = {A84BC40B-5BF9-44CD-B18D-B91E195A7EB0}
+		{10B4F877-F8C5-438B-9546-5FEB3A50FE0D} = {A84BC40B-5BF9-44CD-B18D-B91E195A7EB0}
+		{3DDB853B-3014-4DB6-8C7C-BC055EF3E202} = {796E95C1-0313-43ED-BC55-B9363AA7AA1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC758BE8-DE4F-4B40-A22F-D7D2313103EF}
